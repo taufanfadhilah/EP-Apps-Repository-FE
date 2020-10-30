@@ -1,6 +1,6 @@
 <template>
-  <b-navbar>
-    <b-navbar-brand href="#">
+  <b-navbar toggleable="sm">
+    <b-navbar-brand to="/">
       <img src="@/static/edgeprop.png" alt="edgeprop logo" class="img-logo" />
     </b-navbar-brand>
 
