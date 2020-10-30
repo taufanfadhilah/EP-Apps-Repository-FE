@@ -23,7 +23,7 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .card {
   box-shadow: 0px 2px 4px 3px rgba(51, 51, 51, 0.05);
   border-radius: 20px;
