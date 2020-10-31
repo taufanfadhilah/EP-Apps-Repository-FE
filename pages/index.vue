@@ -4,7 +4,16 @@
     <div class="row mt-16">
       <div class="col-md-9 col-sm-12">
         <VQuote />
-        <p class="title">Apps Repository</p>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="title mt-32">Apps Repository</p>
+          </div>
+          <div class="col-md-12">
+            <VList />
+            <VList />
+            <VList />
+          </div>
+        </div>
       </div>
       <div class="col-md-3"><h1>hi</h1></div>
     </div>
