@@ -10,7 +10,7 @@
       </div>
       <div class="col-md-12 mb-16">
         <label for="uploader mb-8">Uploader</label>
-        <input type="text" class="form-control" placeholder="Enter title" />
+        <input type="text" class="form-control" placeholder="Enter your name" />
       </div>
       <div class="col-md-12 mb-16">
         <label for="team mb-8">Team</label>
@@ -22,7 +22,14 @@
       </div>
       <div class="col-md-12 mb-16">
         <label for="description mb-8">Description</label>
-        <input type="text" class="form-control" placeholder="Enter title" />
+        <textarea
+          name=""
+          id=""
+          cols=""
+          rows="3"
+          class="form-control"
+          placeholder="Put description here"
+        ></textarea>
       </div>
       <div class="col-md-12">
         <label for="link-for-download mb-8">Link for Download</label>

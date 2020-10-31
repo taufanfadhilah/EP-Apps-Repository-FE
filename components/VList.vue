@@ -2,7 +2,9 @@
   <div class="card">
     <div class="row">
       <div class="col-md-8">
-        <p class="list-title">APK for AA-209</p>
+        <p class="list-title">
+          APK for AA-209 <span class="badge">Agent App</span>
+        </p>
         <p class="content">
           Hi tester, here i attach my APK for testing ticket number AA-209 and
           AA-211.
@@ -25,10 +27,9 @@ export default {}
 
 <style lang="scss" scoped>
 .card {
-  background: #d4ebd0;
-  box-shadow: 1px 1px 2px 2px rgba(51, 51, 51, 0.12);
   border-radius: 20px;
-  border: 0px;
+  // border: 1px solid #43b731; // for andro
+  border: 1px solid #93bde1; // for ios
   min-height: 73px;
   padding: 8px 24px;
   margin-bottom: 16px;
@@ -39,6 +40,15 @@ export default {}
   line-height: 21px;
   color: #333333;
   margin-bottom: 0px;
+}
+.badge {
+  // background: #43b731; // for andro
+  background: #93bde1; // for ios
+  border-radius: 10px;
+  padding: 4px 8px;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
 }
 .content {
   font-style: normal;
