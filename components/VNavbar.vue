@@ -12,7 +12,9 @@
         <b-nav-item to="/" class="mr-48" exact exact-active-class="active"
           >Home</b-nav-item
         >
-        <b-nav-item to="/about">About</b-nav-item>
+        <b-nav-item to="/about" exact exact-active-class="active"
+          >About</b-nav-item
+        >
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

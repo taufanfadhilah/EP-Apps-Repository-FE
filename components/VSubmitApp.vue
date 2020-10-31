@@ -6,19 +6,36 @@
       </div>
       <div class="col-md-12 mt-24 mb-16">
         <label for="title mb-8">Title</label>
-        <input type="text" class="form-control" placeholder="Enter title" />
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Enter title"
+          required
+        />
       </div>
       <div class="col-md-12 mb-16">
         <label for="uploader mb-8">Uploader</label>
-        <input type="text" class="form-control" placeholder="Enter your name" />
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Enter your name"
+          required
+        />
       </div>
       <div class="col-md-12 mb-16">
         <label for="team mb-8">Team</label>
-        <select name="" id="" class="form-control"></select>
+        <select name="" id="" class="form-control" required>
+          <option value="Agent App">Agent App</option>
+          <option value="Consumer App">Consumer App</option>
+          <option value="TES App">TES App</option>
+        </select>
       </div>
       <div class="col-md-12 mb-16">
         <label for="platform mb-8">Platform</label>
-        <select name="" id="" class="form-control"></select>
+        <select name="" id="" class="form-control" required>
+          <option value="Android">Android</option>
+          <option value="iOS">iOS</option>
+        </select>
       </div>
       <div class="col-md-12 mb-16">
         <label for="description mb-8">Description</label>
@@ -29,11 +46,17 @@
           rows="3"
           class="form-control"
           placeholder="Put description here"
+          required
         ></textarea>
       </div>
       <div class="col-md-12">
         <label for="link-for-download mb-8">Link for Download</label>
-        <input type="url" class="form-control" placeholder="Enter title" />
+        <input
+          type="url"
+          class="form-control"
+          placeholder="Enter title"
+          required
+        />
       </div>
       <div class="col-md-12">
         <button class="btn btn-primary">Submit</button>
