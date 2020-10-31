@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <VNavbar />
     <div class="row mt-16">
-      <div class="col-md-9 col-sm-12">
+      <div class="col-md-8 col-sm-12 pl-5">
         <VQuote />
         <div class="row">
           <div class="col-md-12">
@@ -15,7 +15,9 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3"><h1>hi</h1></div>
+      <div class="col-md-4">
+        <VSubmitApp />
+      </div>
     </div>
   </div>
 </template>
@@ -26,7 +28,6 @@ export default {}
 
 <style lang="scss">
 .title {
-  margin-top: 32px;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
