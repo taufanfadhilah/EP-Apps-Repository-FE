@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-8">
         <p class="list-title">
-          APK for AA-209 <span class="badge">Agent App</span>
+          APK for AA-209 <span class="badge ml-8">Agent App</span>
         </p>
         <p class="content">
           Hi tester, here i attach my APK for testing ticket number AA-209 and
@@ -13,7 +13,9 @@
       <div class="col-md-4 text-right">
         <p class="date d-none d-lg-block">Monday, 2 November 2020</p>
         <div class="row float-right">
-          <button class="btn btn-primary mr-3">Detail</button>
+          <nuxt-link to="/apps/123">
+            <button class="btn btn-primary mr-3">Detail</button>
+          </nuxt-link>
           <button class="btn btn-secondary">Download</button>
         </div>
       </div>
