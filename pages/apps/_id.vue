@@ -20,7 +20,9 @@
       </div>
       <div class="row mb-16">
         <div class="col-md-4"><p>Platform:</p></div>
-        <div class="col-md-8"><p>Android</p></div>
+        <div class="col-md-8">
+          <p><span class="badge">iOS</span></p>
+        </div>
       </div>
       <div class="row mb-16">
         <div class="col-md-4"><p>Description:</p></div>
@@ -85,5 +87,17 @@ p {
 
   color: #ffffff;
   border: 0px;
+}
+.badge {
+  // background: #3ac808; // for andro
+  background: #93bde1; // for ios
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  align-items: center;
+
+  color: #ffffff;
 }
 </style>
