@@ -1,6 +1,4 @@
-<template>
-  <h5>about me</h5>
-</template>
+<template></template>
 
 <script>
 export default {}
